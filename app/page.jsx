@@ -13,9 +13,9 @@ export default function HomePage() {
   return (
     <div className="space-y-12">
       <section className="text-center">
-        <h1 className="text-4xl md:text-5xl font-serif font-bold tracking-tight">Trollology</h1>
+        <h1 className="text-4xl md:text-5xl font-serif font-bold tracking-tight">Trollology™</h1>
         <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
-          A living archive of troll lore — scholarly, visual, and welcoming to curious minds.
+          A living archive of troll lore — visual, entertaining, and welcoming to curious minds.
         </p>
 
         <form
