@@ -101,7 +101,7 @@ export default function RootLayout({ children }) {
             </div>
           </div>
           <div className="max-w-6xl mx-auto px-4 mt-6 text-xs">
-            © {new Date().getFullYear()} Trollology™
+            © {new Date().getFullYear()} Sergei S. Scurfield
           </div>
         </footer>
       </body>
