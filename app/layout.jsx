@@ -2,8 +2,8 @@ import "./globals.css";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Trollology — A Living Archive of Trolls",
-  description: "A scholarly, visually rich archive of troll species and named figures from folklore and myth."
+  title: "Trollology™ — A Living Archive of Trolls",
+  description: "A visually rich archive of troll species and named figures from folklore and myth."
 };
 
 export default function RootLayout({ children }) {
@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
         <header className="border-b border-gray-200 bg-white/80 backdrop-blur sticky top-0 z-40">
           <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
             <Link href="/" className="text-2xl font-semibold tracking-tight">
-              <span className="font-serif">Trollology</span>
+              <span className="font-serif">Trollology™</span>
             </Link>
             <nav className="hidden md:flex items-center gap-6 text-sm">
               <Link className="hover:underline" href="/catalog">Catalog</Link>
@@ -33,18 +33,18 @@ export default function RootLayout({ children }) {
           <div className="max-w-6xl mx-auto px-4 grid gap-6 md:grid-cols-3">
             <div>
               <h3 className="font-semibold mb-2">About</h3>
-              <p>Trollology is a research-and-art initiative cataloging trolls from pre‑1930 sources.</p>
+              <p>Trollology is a research-and-art initiative cataloging trolls from public domain.</p>
             </div>
             <div>
               <h3 className="font-semibold mb-2">Contribute</h3>
-              <p>Have a citation or illustration lead? <Link className="underline" href="/contribute">Share it with us</Link>.</p>
+              <p>Have a public domain troll story lead? <Link className="underline" href="/contribute">Share it with us</Link>.</p>
             </div>
             <div>
               <h3 className="font-semibold mb-2">Note</h3>
-              <p>We balance myth, history, and storytelling. Accessibility and citations are first‑class.</p>
+              <p>We balance myth, history, and storytelling. </p>
             </div>
           </div>
-          <div className="max-w-6xl mx-auto px-4 mt-6 text-xs">© {new Date().getFullYear()} Trollology</div>
+          <div className="max-w-6xl mx-auto px-4 mt-6 text-xs">© {new Date().getFullYear()} Trollology™</div>
         </footer>
       </body>
     </html>
