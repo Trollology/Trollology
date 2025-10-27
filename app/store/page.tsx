@@ -1,0 +1,1 @@
+export default function StorePage(){return(<div className='space-y-6'><h1 className='text-2xl font-serif font-semibold'>Store</h1><p>This is a placeholder. When you're ready, connect Shopify Lite or Snipcart for checkout, and link products from catalog entries.</p><div className='card'>Coming soon.</div></div>);}
